@@ -26,8 +26,10 @@ body {
 /* TAB BIANCA */
 .container {
     display: flex;
-    width: 90vw;
-    height: 80vh;
+    width: 80vw;
+    height: 65vh;
+    min-height: 500px;
+    min-width: 250px;
     background-color: white;
     border-radius: 20px;
     justify-content: space-around;
@@ -46,7 +48,7 @@ section{
     flex-wrap: wrap;
     text-align: center;
     width: 70vw;
-    margin: 40px 0;
+    margin: 40px 0 0;
 }
 p {
     font-size: 15px;
