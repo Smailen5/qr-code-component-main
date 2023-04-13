@@ -42,9 +42,13 @@ body {
 }
 
 section{
-    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 70vw;
 }
 p {
     font-size: 15px;
     font-weight: 400;
+    padding: 20px 0;
 }
