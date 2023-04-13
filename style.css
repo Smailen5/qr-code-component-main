@@ -31,7 +31,7 @@ body {
     background-color: white;
     border-radius: 20px;
     justify-content: space-around;
-    align-items: flex-start;
+    align-content: flex-start;
     flex-wrap: wrap;
 }
 /* QR CODE */
@@ -46,6 +46,7 @@ section{
     flex-wrap: wrap;
     text-align: center;
     width: 70vw;
+    margin: 40px 0;
 }
 p {
     font-size: 15px;
