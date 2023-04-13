@@ -1,17 +1,15 @@
 # Frontend Mentor - QR code component
 
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
-
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
+This is my first challenge on [Frontend Mentor](https://www.frontendmentor.io/home)
 
 ## Table of contents
 
 - [Screenshot](#screenshot)
 - [Built with](#built-with)
 - [Author](#author)
-
 
 ### Screenshot
 
