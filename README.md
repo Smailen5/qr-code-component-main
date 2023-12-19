@@ -21,8 +21,8 @@ This is my first challenge on [Frontend Mentor](https://www.frontendmentor.io/ho
 
 - versione 1.0
 
-<!-- ![Version Descktop](/screenshot/web-version.jpeg) -->
-<!-- ![Version Mobile](/screenshot/mobile-version.jpeg) -->
+![Version Descktop](/screenshot/web-version.jpeg)
+![Version Mobile](/screenshot/mobile-version.jpeg)
 
 ### Links
 
