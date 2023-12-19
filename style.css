@@ -19,18 +19,19 @@ body {
 .container {
     display: flex;
     width: 85vw;
+    height: 550px;
     /* max-height: 500px;
     max-width: 250px; */
     background-color: white;
     border-radius: 20px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
 
 /* QR CODE */
 .container img {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     width: 90%;
     border-radius: 20px;
 }
@@ -40,7 +41,7 @@ section {
     flex-wrap: wrap;
     text-align: center;
     width: 70vw;
-    margin: 40px 0 0;
+    /* margin: 40px 0 0; */
 }
 
 p {
