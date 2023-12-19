@@ -1,6 +1,10 @@
-* {margin: 0;padding: 0;box-sizing: border-box;font-family: 'Outfit', sans-serif;}
-.attribution {font-size: 11px;text-align: center;}
-.attribution a {color: hsl(228, 45%, 44%);}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
 body {
     background-color: hsl(212.31, 44.83%, 88.63%);
     display: flex;
@@ -10,6 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
 /* TAB BIANCA */
 .container {
     display: flex;
@@ -22,15 +27,41 @@ body {
     align-content: flex-start;
     flex-wrap: wrap;
 }
+
 /* QR CODE */
-.container img {margin-top: 20px;width: 90%;border-radius: 20px;}
-section {display: flex;flex-wrap: wrap;text-align: center;width: 70vw;margin: 40px 0 0;}
-p {padding: 20px 0;}
+.container img {
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 70vw;
+    margin: 40px 0 0;
+}
+
+p {
+    padding: 20px 0;
+}
+
 /* media per pc */
 @media (min-width: 768px) {
+
     /* TAB BIANCA */
-    .container {width: 20vw;height: 60vh;}
-    section {margin: 0;}
+    .container {
+        width: 20vw;
+        height: 60vh;
+    }
+
+    section {
+        margin: 0;
+    }
+
     p,
-    h2 {padding: 20px 55px 0;}
+    h2 {
+        padding: 20px 55px 0;
+    }
 }
