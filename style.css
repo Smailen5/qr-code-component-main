@@ -11,17 +11,15 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* width: 100vw; */
     height: 100vh;
 }
 
-/* TAB BIANCA */
+/* ---------- TAB BIANCA ---------- */
+
 .container {
     display: flex;
     width: 85vw;
     height: 550px;
-    /* max-height: 500px;
-    max-width: 250px; */
     background-color: white;
     border-radius: 20px;
     justify-content: space-around;
@@ -29,9 +27,9 @@ body {
     flex-direction: column;
 }
 
-/* QR CODE */
+/* ---------- QR CODE ---------- */
+
 .container img {
-    /* margin-top: 20px; */
     width: 90%;
     border-radius: 20px;
 }
@@ -41,17 +39,18 @@ section {
     flex-wrap: wrap;
     text-align: center;
     width: 70vw;
-    /* margin: 40px 0 0; */
 }
 
 p {
     padding: 20px 0;
 }
 
-/* media per pc */
+/* ---------- MEDIA QUERY PER DESKTOP ---------- */
+
 @media (min-width: 768px) {
 
-    /* TAB BIANCA */
+    /* ---------- TAB BIANCA ---------- */
+
     .container {
         width: 20vw;
         height: 60vh;
