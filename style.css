@@ -47,7 +47,7 @@ section h2 {
     font-size: 22px;
     color: hsla(217, 44%, 22%, 1);
 }
-p {
+section p {
     color: hsla(219, 15%, 55%, 1);
 }
 
@@ -55,19 +55,16 @@ p {
 
 @media (min-width: 768px) {
 
-    /* ---------- TAB BIANCA ---------- */
-
     .container {
-        width: 20vw;
-        height: 60vh;
+        width: 320px;
+        height: 497px;
+        justify-content: space-evenly;
     }
-
+    
     section {
-        margin: 0;
+        width: 288px;
+        height: 129px;
+        gap: 16px;
     }
-
-    p,
-    h2 {
-        padding: 20px 55px 0;
-    }
+    
 }
