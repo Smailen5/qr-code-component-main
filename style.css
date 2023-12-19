@@ -11,21 +11,21 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
 }
 
 /* TAB BIANCA */
 .container {
     display: flex;
-    width: 90vw;
-    min-height: 500px;
-    min-width: 250px;
+    width: 85vw;
+    /* max-height: 500px;
+    max-width: 250px; */
     background-color: white;
     border-radius: 20px;
-    justify-content: space-around;
-    align-content: flex-start;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* QR CODE */
